@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Compra Auto</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- LAYOUT LABEL STRINGS -->
+    <string name="title_activity_main">Concesionario de coches</string>
+    <string name="instruction">Ingrese la información de la compra de coches.</string>
+    <string name="dollar_sign">$</string>
+    <string name="car_price">¿Cuál es el precio de su coche?</string>
+    <string name="down_payment">¿Cuál es su pago inicial en efectivo?</string>
+    <string name="loan_term">Elige el plazo del préstamo</string>
+    <string name="years2">2 anos</string>
+    <string name="years3">3 anos</string>
+    <string name="years4">4 anos</string>
+    <string name="loan_summary">Su Préstamo Resumen</string>
+    <string name="generate_btn">Informe del préstamo</string>
+    <string name="go_data_entry">Volver a la entrada de datos</string>
+
+    <!-- REPORT STRINGS -->
+    <string name="report_line1"> \n\t\t\t<b>Pago Mensual:</b>\t$</string>
+    <string name="report_line2"> \n\n\nNOTA: </string>
+    <string name="report_line3"> \n1. Información del préstamo se pone a disposición de Tom\'s Car Dealership.</string>
+    <string name="report_line4"> \n\n2. Se requiere una tasa de impuesto sobre las ventas del 7% en el estado de California.</string>
+    <string name="report_line5"> \n\n3. Los vehículos son financiados a una tasa de interés anual del 9%.\n\n</string>
+    <string name="report_line6"> \n\t Engomada del coche del precio: $</string>
+    <string name="report_line7"> \n\t Va a acabar: $</string>
+    <string name="report_line8"> \n\t préstamo a Plazo es </string>
+    <string name="report_line9"> \n\t Importe de los impuestos$ </string>
+    <string name="report_line10">\n\tSu costs: $</string>
+    <string name="report_line11">\n\tcantidad prestada: $</string>
+    <string name="report_line12">\n\tCantidad de interés: $</string>
+
+</resources>

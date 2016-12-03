@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnu_zero"
+        android:title="Beam Me Up"
+        android:icon ="@drawable/st_beam_me_up"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/mnu_one"
+        android:title="Nuclear Wessels"
+        android:icon ="@drawable/st_nuclear_wessels"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/mnu_two"
+        android:title="Phasors on Stun"
+        android:icon ="@drawable/st_phasers"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/mnu_three"
+        android:title="Live Long and Prosper"
+        android:icon ="@drawable/st_live_long_and_prosper"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/mnu_four"
+        android:title="Kahn!!"
+        android:icon ="@drawable/st_khan"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>

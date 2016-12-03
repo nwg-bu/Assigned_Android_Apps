@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.sse.minisink.MapsActivity" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:context="com.example.sse.mappingapp.MapsActivity"
+        android:layout_weight="3"
+/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView3"
+            android:layout_marginStart="53dp"
+            android:layout_alignBaseline="@+id/btnCurrentLocation"
+            android:layout_alignBottom="@+id/btnCurrentLocation"
+            android:layout_toEndOf="@+id/btnGeoLocate" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtLong"
+            android:hint="Longitude"
+            android:layout_alignBaseline="@+id/edtLat"
+            android:layout_alignBottom="@+id/edtLat"
+            android:layout_toEndOf="@+id/edtLat"
+            android:layout_marginStart="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pin Lat/Long"
+            android:layout_weight="1"
+            android:id="@+id/btnPinLatLong"
+            android:onClick="onSomeButtonClick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtLat"
+            android:layout_marginStart="13dp"
+            android:hint="Latitude"
+            android:layout_alignBottom="@+id/btnPinLatLong"
+            android:layout_toEndOf="@+id/btnPinLatLong" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Location"
+            android:layout_weight="1"
+            android:id="@+id/btnCurrentLocation"
+            android:onClick="onSomeButtonClick"
+            android:layout_below="@+id/btnGeoLocate"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GeoLocate"
+            android:layout_weight="1"
+            android:id="@+id/btnGeoLocate"
+            android:onClick="onSomeButtonClick"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/btnPinLatLong"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtGeoLocation"
+            android:hint="Some Place  Famous"
+            android:layout_alignBottom="@+id/btnGeoLocate"
+            android:layout_alignEnd="@+id/edtLong" />
+
+        <Button
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/btnStart" />
+
+        <Button
+            android:text="Distance Traveled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnStop"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnDistance" />
+
+        <Button
+            android:text="Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStop"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/btnGeoLocate" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

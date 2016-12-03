@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayout"
+    tools:context=".MyActivity"
+    android:background="@drawable/table">
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbAccelerate"
+        android:indeterminate="false"
+        android:layout_gravity="bottom"
+        android:max="2"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/textView"
+        android:layout_gravity="left|bottom"
+        android:paddingBottom="40dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/textView2"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingBottom="40dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/textView3"
+        android:layout_gravity="right|bottom"
+        android:paddingBottom="40dp"
+        android:textSize="30dp" />
+
+</FrameLayout>

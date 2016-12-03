@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlashCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="generateRandomProbs">Generate 10 Random Problems</string>
+    <string name="tvSimpleLogin">Simple \n Login</string>
+    <string name="tvUserName">User</string>
+    <string name="etPassWord">Password</string>
+    <string name="tvPassword">Pass</string>
+    <string name="btnSubmit">Submit</string>
+</resources>
